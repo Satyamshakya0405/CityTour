@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/home"
+            android:icon="@drawable/icons_home"/>
+        <item
+            android:id="@+id/nav_search"
+            android:title="@string/searchcaps"
+            android:icon="@drawable/icon_search"/>
+        <item
+            android:id="@+id/nav_all_categories"
+            android:title="@string/all_categories"
+            android:icon="@drawable/icons_category"
+            />
+        <item
+            android:id="@+id/nav_add_missing_place"
+            android:title="@string/add_missing_palce"
+            android:icon="@drawable/icons_location"/>
+    </group>
+
+    <item android:title="Profile">
+        <menu>
+            <group
+                android:checkableBehavior="single">
+                <item
+                android:id="@+id/nav_login"
+                    android:title="@string/login"
+                    />
+                <item
+                    android:id="@+id/nav_profile"
+                    android:title="@string/profile"
+                    />
+                <item
+                    android:id="@+id/nav_logout"
+                    android:title="@string/log_out"
+                    />
+
+
+            </group>
+
+
+
+        </menu>
+
+
+
+    </item>
+    <item android:title="Categories">
+        <menu>
+            <group
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_restaraunt"
+                    android:title="@string/Restaurant"
+                    />
+                <item
+                    android:id="@+id/nav_Bank"
+                    android:title="Bank"
+                    />
+                <item
+                    android:id="@+id/nav_education"
+                    android:title="@string/Education"
+                    />
+
+
+            </group>
+
+
+
+        </menu>
+
+
+
+    </item>
+
+</menu>
